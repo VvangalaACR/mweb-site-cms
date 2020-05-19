@@ -13,9 +13,6 @@ steps:
 - script: yarn 
   displayName: 'Installing node modules'
 
-- script: yarn lint
-  displayName: 'Checking for lint errors'
-
 - script: |
     yarn build
   displayName: 'Running webpack build'
